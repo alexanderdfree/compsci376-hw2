@@ -1,0 +1,24 @@
+corpus=inaugural sentences=5395 context=2 start=uniform punct=keep min_len=1 max_len=inf novel=False seed=376 contexts=67961
+--- 500 sentences, mean length 25.9 tokens, verbatim copies of cleaned corpus sentences 0/500 (0.0%), start with a capital 43/500 (8.6%), end with terminal punctuation 494/500 (98.8%), rejected 0
+
+corpus=inaugural sentences=5395 context=2 start=frequent punct=keep min_len=1 max_len=inf novel=False seed=376 contexts=67961
+--- 500 sentences, mean length 26.2 tokens, verbatim copies of cleaned corpus sentences 0/500 (0.0%), start with a capital 29/500 (5.8%), end with terminal punctuation 495/500 (99.0%), rejected 0
+
+corpus=inaugural sentences=5395 context=2 start=boundary punct=keep min_len=1 max_len=inf novel=False seed=376 contexts=67961
+--- 500 sentences, mean length 27.4 tokens, verbatim copies of cleaned corpus sentences 11/500 (2.2%), start with a capital 497/500 (99.4%), end with terminal punctuation 494/500 (98.8%), rejected 0
+
+corpus=inaugural sentences=5392 context=2 start=boundary punct=strip min_len=1 max_len=inf novel=False seed=376 contexts=68087
+--- 500 sentences, mean length 26.2 tokens, verbatim copies of cleaned corpus sentences 8/500 (1.6%), start with a capital 498/500 (99.6%), end with terminal punctuation 0/500 (0.0%), rejected 0
+
+corpus=inaugural sentences=5395 context=1 start=boundary punct=keep min_len=1 max_len=inf novel=False seed=376 contexts=10139
+--- 500 sentences, mean length 28.5 tokens, verbatim copies of cleaned corpus sentences 2/500 (0.4%), start with a capital 499/500 (99.8%), end with terminal punctuation 498/500 (99.6%), rejected 0
+
+corpus=inaugural sentences=5395 context=3 start=boundary punct=keep min_len=1 max_len=inf novel=False seed=376 contexts=124020
+--- 500 sentences, mean length 26.1 tokens, verbatim copies of cleaned corpus sentences 89/500 (17.8%), start with a capital 500/500 (100.0%), end with terminal punctuation 495/500 (99.0%), rejected 0
+
+corpus=inaugural sentences=5395 context=2 start=boundary punct=keep min_len=6 max_len=30 novel=True seed=376 contexts=67961
+--- 500 sentences, mean length 15.9 tokens, verbatim copies of cleaned corpus sentences 0/500 (0.0%), start with a capital 496/500 (99.2%), end with terminal punctuation 498/500 (99.6%), rejected {'verbatim': 9, 'length': 358}
+
+corpus=inaugural sentences=5395 context=1 start=boundary punct=keep min_len=6 max_len=30 novel=True seed=376 contexts=10139
+--- 500 sentences, mean length 16.3 tokens, verbatim copies of cleaned corpus sentences 0/500 (0.0%), start with a capital 499/500 (99.8%), end with terminal punctuation 497/500 (99.4%), rejected {'length': 365}
+

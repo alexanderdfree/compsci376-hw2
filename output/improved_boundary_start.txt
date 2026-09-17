@@ -1,0 +1,22 @@
+corpus=inaugural sentences=5395 context=2 start=boundary punct=keep min_len=1 max_len=inf novel=False seed=376 contexts=67961
+They spring up native amongst us .
+To any just sense of duty for whatever success may attend my public conduct through a national emergency at home , fellow citizens : On this day , prescribed by the strong -- in the want of conformity to the principle , though it was conformable to such discipline , because they are as auxiliaries of the establishment of a vision -- to convert our good words into good deeds -- in a moment and we saw that the Federal Government with business , for their settlement in the right path .
+Look , folks , all the markets of the advisers of my countrymen are just and advantageous to both purposes .
+These basic precepts are not at fault .
+I will faithfully observe the rights and equal citizenship .
+I believe God intended for us the fate which awaits their present state of chaos .
+So sensibly , fellow citizens , to the civil law is only a simple need .
+The sectional element has happily been eliminated from the establishment of American workers and American treasure be spilled , in God ' s and tomorrow the work , and those of this new direction , and three quarters ago .
+In the swift development of those who use unlawful methods , further legislative and judicial branches of the latter ; Cromwell , in that of the press and of human life from this spirit and add new vitality to the Republic are men of the world over .
+From a just and liberal care and protection of the Senate , to strengthen our adversaries .
+It is time rather to speak .
+This Administration has come to us all .
+The mind of that of want of conformity to the powers granted to the constant promotion of home products and with no other consequences than any other nation ' s observance , inflict no punishment but after well - established reputation for integrity and promotes thrift and enterprise of modern war ships and inefficient guns a rating greatly beyond that .
+Shall the prejudices which for half a century has been too much importance can not fight to replace the advances we shall be guided in the midst of these conflicts the United States of America .
+Let us resolve that we can do -- for it .
+Universal suffrage should rest upon the whole Government and those reserved to the proper occasion .
+Passion has swept some of its whole constitutional vigor , and uncompromising opponent of every free citizen everywhere to place the cause of peace .
+It is the cement of the channel of a thrilling new era in production , transportation and trade resumes its wonted channels .
+God bless you and God bless America .
+When this spirit is suffered to lie long and sometimes difficult .
+--- 20 sentences, mean length 24.1 tokens, verbatim copies of cleaned corpus sentences 1/20 (5.0%), start with a capital 20/20 (100.0%), end with terminal punctuation 20/20 (100.0%), rejected 0

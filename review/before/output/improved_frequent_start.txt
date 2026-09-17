@@ -1,0 +1,22 @@
+corpus=inaugural sentences=5395 context=2 start=frequent punct=keep min_len=1 max_len=inf novel=False seed=376 contexts=67961
+influence or temptation that retards their advancement .
+need , too , are of the United States , over which I had supposed was to preserve our national independence was first perceived , in characters too legible to be made of late years in thousands of protesters tried to take advantage of this agitation , which is eternally right .
+with unequaled alacrity .
+of high degree our energy , self - help by itself cooperating with them wherever they may claim as citizens , the Government .
+of no section ; there must be ready to associate ourselves with the regulation by Southern States of America , an idea born in revolution , and on yours of the world strong , and there shall be guided in the mad chase of evanescent profits .
+it guided all those men and women , sung and unsung , who may be still a rampart , and not treated fairly in any State or Territory , no prediction in regard to a thorough protection to our country will never forget that we are .
+consulted my incapacity as well as the best hope in the interest of individual sacrifice for its own greater power -- is now rather more than forty - four years which have blinded our countrymen to uphold those political institutions , and delay the onward march let us go forth .
+and disbursement of the latter ; Cromwell , in that of the press and of human life from this spirit and add new vitality to the Republic are men of the world over .
+common burden .
+finds us unprepared for it .
+in the wisest and soundest method of enforcement of that Power whose providence mercifully protected our national life .
+of many whom I am to undertake .
+Nation we humbly ask the Congress of another would be as young and the defective always violate it -- it will be a government which is complained of , but as something may be renewed and strengthened devotion , as much to repair , much to build a structure of human , and affection which are lopped by the respective States themselves -- accepting and obeying its mandates .
+the laws prohibiting illegal equipments with equal promptitude perform the obligations imposed by treaty the protection which , while respecting to the use which it will not expect my countrymen who were favorable to American arms and by the degree of order sufficient at least a passing reference now .
+My fellow citizens , you , and its kindness .
+' some celebrated but more often men and women , African Americans and all others in joint effort to rebuild our country the blessings of liberty .
+, as to retain persons known to all .
+United States , it is our home industry ," and already are our dreams .
+, invading neither the narrow confines of a similar character , situation , is needed to secure greater elasticity in the history of the United States , but to be reminded that the President the sole heirs of the Government can and must provide for them until they could not live .
+adherence to the establishment of direct lines of attack , and have negotiated many treaties to secure economy and only justice , liberty , we shall attain that high confidence you reposed in me .
+--- 20 sentences, mean length 28.5 words, verbatim copies of corpus sentences 0/20 (0%), start with a capital 3/20 (15%), end with terminal punctuation 20/20 (100%), rejected 0

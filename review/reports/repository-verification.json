@@ -1,0 +1,7 @@
+{
+  "ngram_entries_verified": 60,
+  "comparison_configurations_verified": 8,
+  "all_checks_passed": true,
+  "command": "python review/verify.py",
+  "note": "Portable verifier run during repository packaging; isolated-install result is archived evidence, not a fresh installation run."
+}

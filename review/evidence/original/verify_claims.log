@@ -1,0 +1,705 @@
+{
+  "all_corpus_sizes": {
+    "inaugural": {
+      "tokens": 156288,
+      "sentences": 5395,
+      "files": 60
+    },
+    "gutenberg": {
+      "tokens": 2621613,
+      "sentences": 98552,
+      "files": 18
+    },
+    "reuters": {
+      "tokens": 1720901,
+      "sentences": 54716,
+      "files": 10788
+    },
+    "movie_reviews": {
+      "tokens": 1583820,
+      "sentences": 71532,
+      "files": 2000
+    },
+    "brown": {
+      "tokens": 1161192,
+      "sentences": 57340,
+      "files": 500
+    },
+    "abc": {
+      "tokens": 766811,
+      "sentences": 29059,
+      "files": 2
+    },
+    "state_union": {
+      "tokens": 399822,
+      "sentences": 17930,
+      "files": 65
+    },
+    "webtext": {
+      "tokens": 396733,
+      "sentences": 25733,
+      "files": 6
+    },
+    "genesis": {
+      "tokens": 315268,
+      "sentences": 13644,
+      "files": 8
+    },
+    "treebank": {
+      "tokens": 100676,
+      "sentences": 3914,
+      "files": 199
+    }
+  },
+  "independent_ngrams": {
+    "kept": {
+      "1": [
+        [
+          [
+            "the"
+          ],
+          9670
+        ],
+        [
+          [
+            ","
+          ],
+          7499
+        ],
+        [
+          [
+            "of"
+          ],
+          7260
+        ],
+        [
+          [
+            "and"
+          ],
+          5356
+        ],
+        [
+          [
+            "."
+          ],
+          5186
+        ],
+        [
+          [
+            "to"
+          ],
+          4562
+        ],
+        [
+          [
+            "in"
+          ],
+          2629
+        ],
+        [
+          [
+            "a"
+          ],
+          2277
+        ],
+        [
+          [
+            "our"
+          ],
+          2126
+        ],
+        [
+          [
+            "that"
+          ],
+          1807
+        ]
+      ],
+      "2": [
+        [
+          [
+            "of",
+            "the"
+          ],
+          1784
+        ],
+        [
+          [
+            ",",
+            "and"
+          ],
+          1404
+        ],
+        [
+          [
+            "in",
+            "the"
+          ],
+          765
+        ],
+        [
+          [
+            "to",
+            "the"
+          ],
+          716
+        ],
+        [
+          [
+            "of",
+            "our"
+          ],
+          635
+        ],
+        [
+          [
+            ".",
+            "The"
+          ],
+          606
+        ],
+        [
+          [
+            ".",
+            "We"
+          ],
+          562
+        ],
+        [
+          [
+            "and",
+            "the"
+          ],
+          470
+        ],
+        [
+          [
+            ",",
+            "the"
+          ],
+          388
+        ],
+        [
+          [
+            ".",
+            "It"
+          ],
+          354
+        ]
+      ],
+      "3": [
+        [
+          [
+            ".",
+            "It",
+            "is"
+          ],
+          155
+        ],
+        [
+          [
+            "the",
+            "United",
+            "States"
+          ],
+          154
+        ],
+        [
+          [
+            ",",
+            "and",
+            "the"
+          ],
+          145
+        ],
+        [
+          [
+            ".",
+            "We",
+            "have"
+          ],
+          102
+        ],
+        [
+          [
+            "of",
+            "the",
+            "United"
+          ],
+          101
+        ],
+        [
+          [
+            "of",
+            "the",
+            "people"
+          ],
+          99
+        ],
+        [
+          [
+            "of",
+            "the",
+            "Government"
+          ],
+          75
+        ],
+        [
+          [
+            ".",
+            "We",
+            "will"
+          ],
+          75
+        ],
+        [
+          [
+            ".",
+            "We",
+            "are"
+          ],
+          68
+        ],
+        [
+          [
+            "of",
+            "the",
+            "world"
+          ],
+          66
+        ]
+      ]
+    },
+    "removed": {
+      "1": [
+        [
+          [
+            "the"
+          ],
+          9670
+        ],
+        [
+          [
+            "of"
+          ],
+          7260
+        ],
+        [
+          [
+            "and"
+          ],
+          5356
+        ],
+        [
+          [
+            "to"
+          ],
+          4562
+        ],
+        [
+          [
+            "in"
+          ],
+          2629
+        ],
+        [
+          [
+            "a"
+          ],
+          2277
+        ],
+        [
+          [
+            "our"
+          ],
+          2126
+        ],
+        [
+          [
+            "that"
+          ],
+          1807
+        ],
+        [
+          [
+            "be"
+          ],
+          1545
+        ],
+        [
+          [
+            "is"
+          ],
+          1506
+        ]
+      ],
+      "2": [
+        [
+          [
+            "of",
+            "the"
+          ],
+          1784
+        ],
+        [
+          [
+            "in",
+            "the"
+          ],
+          765
+        ],
+        [
+          [
+            "to",
+            "the"
+          ],
+          718
+        ],
+        [
+          [
+            "of",
+            "our"
+          ],
+          635
+        ],
+        [
+          [
+            "and",
+            "the"
+          ],
+          470
+        ],
+        [
+          [
+            "by",
+            "the"
+          ],
+          320
+        ],
+        [
+          [
+            "to",
+            "be"
+          ],
+          319
+        ],
+        [
+          [
+            "for",
+            "the"
+          ],
+          302
+        ],
+        [
+          [
+            "of",
+            "a"
+          ],
+          266
+        ],
+        [
+          [
+            "the",
+            "people"
+          ],
+          259
+        ]
+      ],
+      "3": [
+        [
+          [
+            "the",
+            "United",
+            "States"
+          ],
+          154
+        ],
+        [
+          [
+            "of",
+            "the",
+            "United"
+          ],
+          101
+        ],
+        [
+          [
+            "of",
+            "the",
+            "people"
+          ],
+          99
+        ],
+        [
+          [
+            "of",
+            "the",
+            "Government"
+          ],
+          75
+        ],
+        [
+          [
+            "of",
+            "the",
+            "world"
+          ],
+          66
+        ],
+        [
+          [
+            "of",
+            "our",
+            "country"
+          ],
+          51
+        ],
+        [
+          [
+            "of",
+            "the",
+            "Union"
+          ],
+          48
+        ],
+        [
+          [
+            "of",
+            "our",
+            "people"
+          ],
+          48
+        ],
+        [
+          [
+            "as",
+            "well",
+            "as"
+          ],
+          47
+        ],
+        [
+          [
+            "of",
+            "the",
+            "country"
+          ],
+          47
+        ]
+      ]
+    }
+  },
+  "removed_tokens": 14329,
+  "distinct_flat_bigrams": 68149,
+  "top_ten_punctuation_counts": {
+    "2": 5,
+    "3": 5
+  },
+  "context_alternative_punctuation_definitions": {
+    "raw": {
+      "nonalphanumeric_only": 8187,
+      "nonalpha_tokens": 8327,
+      "single_ascii_punctuation": 7511,
+      "with_none": 592
+    },
+    "clean": {
+      "nonalphanumeric_only": 8041,
+      "nonalpha_tokens": 8181,
+      "single_ascii_punctuation": 7509,
+      "with_none": 585
+    }
+  },
+  "intervening_punctuation_to_the": [
+    [
+      "predecessors",
+      "attached",
+      "deserved",
+      "importance",
+      "to",
+      "\"",
+      "the",
+      "support",
+      "of",
+      "the",
+      "State"
+    ],
+    [
+      ".",
+      "When",
+      "we",
+      "listen",
+      "to",
+      "\"",
+      "the",
+      "better",
+      "angels",
+      "of",
+      "our"
+    ]
+  ],
+  "removed_nonascii_token_examples": [
+    [
+      "",
+      46
+    ],
+    [
+      "",
+      25
+    ],
+    [
+      "¡",
+      18
+    ],
+    [
+      "¡¦",
+      12
+    ],
+    [
+      "Americaâ",
+      4
+    ],
+    [
+      "¡§",
+      3
+    ],
+    [
+      "Thatâ",
+      3
+    ],
+    [
+      "Iâ",
+      3
+    ],
+    [
+      ".¡¨",
+      2
+    ],
+    [
+      "usâ",
+      2
+    ],
+    [
+      "loveâ",
+      2
+    ],
+    [
+      "youâ",
+      2
+    ],
+    [
+      "nationâ",
+      2
+    ],
+    [
+      "Itâ",
+      2
+    ],
+    [
+      "Weâ",
+      2
+    ],
+    [
+      "¡¨¡",
+      1
+    ],
+    [
+      "exceptionalâ",
+      1
+    ],
+    [
+      "Americanâ",
+      1
+    ],
+    [
+      "itâ",
+      1
+    ],
+    [
+      "treasureâ",
+      1
+    ]
+  ],
+  "all_trigrams_in_final_examples": [
+    {
+      "sentence": "Look , folks , all the markets of the advisers of my countrymen are just and advantageous to both purposes .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "These basic precepts are not at fault .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "I will faithfully observe the rights and equal citizenship .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "I believe God intended for us the fate which awaits their present state of chaos .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "So sensibly , fellow citizens , to the civil law is only a simple need .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "From a just and liberal care and protection of the Senate , to strengthen our adversaries .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "It is time rather to speak .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "This Administration has come to us all .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "Let us resolve that we can do -- for it .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "Universal suffrage should rest upon the whole Government and those reserved to the proper occasion .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "Passion has swept some of its whole constitutional vigor , and uncompromising opponent of every free citizen everywhere to place the cause of peace .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "It is the cement of the channel of a thrilling new era in production , transportation and trade resumes its wonted channels .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "God bless you and God bless America .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "When this spirit is suffered to lie long and sometimes difficult .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "We know our task must be a retreat which was never brought up again by me .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "The merchant , the channels of trade in all ages it has reached its destination , but on Earth .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "We need all our earthly hopes are entwined .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "This signifies more than any other .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "They adhere to the shores of an intelligent people .",
+      "all_trigrams_seen": true
+    },
+    {
+      "sentence": "I may safely give the proper course to renew our hope by a memory .",
+      "all_trigrams_seen": true
+    }
+  ],
+  "source_files_unchanged": true
+}

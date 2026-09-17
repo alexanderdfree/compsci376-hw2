@@ -1,0 +1,2 @@
+Corpus: inaugural  (156288 tokens, 68149 distinct bigrams)
+[(('of', 'the'), 1784)]

@@ -1,0 +1,22 @@
+corpus=inaugural sentences=5395 context=2 start=boundary punct=keep min_len=6 max_len=30 novel=True seed=376 contexts=67961
+Look , folks , all the markets of the advisers of my countrymen are just and advantageous to both purposes .
+These basic precepts are not at fault .
+I will faithfully observe the rights and equal citizenship .
+I believe God intended for us the fate which awaits their present state of chaos .
+So sensibly , fellow citizens , to the civil law is only a simple need .
+From a just and liberal care and protection of the Senate , to strengthen our adversaries .
+It is time rather to speak .
+This Administration has come to us all .
+Let us resolve that we can do -- for it .
+Universal suffrage should rest upon the whole Government and those reserved to the proper occasion .
+Passion has swept some of its whole constitutional vigor , and uncompromising opponent of every free citizen everywhere to place the cause of peace .
+It is the cement of the channel of a thrilling new era in production , transportation and trade resumes its wonted channels .
+God bless you and God bless America .
+When this spirit is suffered to lie long and sometimes difficult .
+We know our task must be a retreat which was never brought up again by me .
+The merchant , the channels of trade in all ages it has reached its destination , but on Earth .
+We need all our earthly hopes are entwined .
+This signifies more than any other .
+They adhere to the shores of an intelligent people .
+I may safely give the proper course to renew our hope by a memory .
+--- 20 sentences, mean length 13.8 words, verbatim copies of corpus sentences 0/20 (0%), start with a capital 20/20 (100%), end with terminal punctuation 20/20 (100%), rejected {'verbatim': 1, 'length': 17}
