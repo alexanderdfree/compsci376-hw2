@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "seed": 376,
+  "sample_sentences": 20,
+  "comparison_sentences": 500,
+  "environment": {
+    "python": "3.12.14",
+    "nltk": "3.10.3"
+  },
+  "corpus": {
+    "name": "inaugural",
+    "encoding": "latin1",
+    "files": 60,
+    "sentences": 5395,
+    "tokens": 156288,
+    "first_file": "1789-Washington.txt",
+    "last_file": "2025-Trump.txt",
+    "archive_sha256": "b3b2cb7bd82697b58ff79c75af20ab963810d191a8c3d1f7c240f98e5d27a895"
+  },
+  "counts": {
+    "raw_contexts": 68068,
+    "clean_contexts": 67961,
+    "raw_punctuation_contexts": 8187,
+    "nonfinal_periods": 37,
+    "punctuation_initial_sentences": 25
+  },
+  "instructor_sha256": {
+    "originals/Basic LM with Sentence Generation with Random Starting Bigram.py": "535a5f5a3259dd07e1a677cd9616c1b1bd244ffae754a63f9697eecd2de0bd68",
+    "originals/Basic LM with Sentence Generation.py": "9d8215a929f6d1727f85ec871d172384ea3a6f64bb530e81bd8151c974fb00d6",
+    "originals/BigramFrequencies.py": "27a8e37aff66b52f8a52392a27728f173217f61741fabf4105e0580bdb8cd6ad",
+    "originals/UnigramBigramTrigramFreq.py": "697d69777a1a142f509cb19d21ee4dd6f1b4a65475a505030cfb2cf000bcae45",
+    "originals/UnigramBigramTrigramNoPuncFreq.py": "69728b0b0208bf5213a53942875dc06e986f1f360f51b94f8572ce7a18e25a3b"
+  },
+  "output_sha256": {
+    "output/basic_lm.txt": "086792f61e2914e2c5d65a778c3ec1d467b5125381e5fb662a58f7d118da3a6e",
+    "output/basic_lm_random_start.txt": "79a1c82d39bcb7a9e2c8b67306ec352e05834af4663259b309dd84b868fa1f45",
+    "output/bigram_frequencies.txt": "2e9f20404f0ea312d632c38689b5cc377293a5509bbfd7c91bd7a1305ece9885",
+    "output/comparison.txt": "f391c3495d22157a86661f341a2d8b029970fe34eac88f45052e852211d52f7b",
+    "output/improved_4gram_model.txt": "e6a8b9fcc98f65b63ac497d2555f735fad46574d5902871ca6b3ed2d1d83c347",
+    "output/improved_bigram_model.txt": "06ae1b23418ef8ed1c3c2b44d45a053e7e74ea68b621b25b303137a0e20ad7f5",
+    "output/improved_boundary_nopunct.txt": "da4400f362342f6028a17974fdf8636b18baa30765adc6c3aed41ac58ffcf13f",
+    "output/improved_boundary_start.txt": "5b15c7105199b42ed496b2f2a7ccfa255c21989e24db60e952ef3c423c5ed4e7",
+    "output/improved_final.txt": "ab98a50748ab21fba8694d2ce9ae944c06ebf23d909baeef2e813f21a371e488",
+    "output/improved_frequent_start.txt": "f9a9a6135240b720a1eb6d78909058944e346cf33d1c55b68cef4caeacc5800a",
+    "output/improved_uniform_start.txt": "5ca4096520c2903dee52df3fde0299cb66352f05de9328a3d5dfd7fa42b475b9",
+    "output/ngram_freq.txt": "11160cd3cd25a777d104304b57b51c46f37e3312c0dff1b8e40090e5f54e8e2f",
+    "output/ngram_freq_nopunct.txt": "49cb3d546009f7575e060b6f0205f85d45a56445b3c3585e4042bd49ba4a28eb"
+  },
+  "historical_review_commit": "3ad7e7ea35e79f5cdf7be70032b7762699f8db56"
+}

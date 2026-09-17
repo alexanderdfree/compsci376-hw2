@@ -5,28 +5,30 @@ sentence from a bigram chosen uniformly from every distinct context in the model
 so most outputs begin mid-phrase ("of magnanimity , one home , take it .").
 This script keeps the same counting/sampling idea but makes the knobs explicit:
 
-  --context K      words of context (1 = bigram LM, 2 = trigram LM as in the
+  --context K      tokens of context (1 = bigram LM, 2 = trigram LM as in the
                    original, 3 = 4-gram LM)
   --start HOW      boundary  start from the None padding, so the first words are
                              drawn from the sentence-initial distribution (default)
-                   uniform   the original behaviour: any context, equally likely
-                   frequent  a real-word context chosen in proportion to its
+                   uniform   any context, equally likely, in the cleaned model
+                   frequent  a non-padding context chosen in proportion to its
                              corpus frequency (demonstrates why "frequent" is not
                              the same as "good starting point")
   --punct MODE     keep (default) or strip punctuation tokens before training
-  --min-len/--max-len   reject and regenerate sentences outside this word range
-  --novel          reject sentences that appear verbatim in the corpus
+  --min-len/--max-len   reject sentences outside this token range, including punctuation
+  --novel          reject exact matches to cleaned corpus sentences
   --quiet          print only the summary statistics
 
-Non-ASCII bytes are always stripped from tokens: the post-2009 inaugural files
+Non-ASCII characters are always stripped from tokens: the post-2009 inaugural files
 are decoded as Latin-1 by NLTK, which turns curly quotes and em-dashes into
 junk tokens such as '\\x80\\x94' and glues an 'â' onto the preceding word.
+Uniform starts use the original start-selection strategy, but preprocessing,
+sampling, stopping, and the hard cap differ from the baseline implementation.
 
 Examples:
-  python improved_lm.py --seed 376
-  python improved_lm.py --start uniform --seed 376        # reproduce the original
-  python improved_lm.py --context 1 --punct strip -n 10
-  python improved_lm.py --min-len 6 --max-len 30 --novel -n 500 --quiet
+  python src/improved_lm.py --seed 376
+  python src/improved_lm.py --start uniform --seed 376        # compare start strategies
+  python src/improved_lm.py --context 1 --punct strip -n 10
+  python src/improved_lm.py --min-len 6 --max-len 30 --novel -n 500 --quiet
 """
 import argparse
 import random
@@ -97,12 +99,12 @@ def generate(model, k, start, rng):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--corpus", default=CORPUS_NAME)
-    ap.add_argument("--context", type=int, default=2, help="words of context (default 2 = trigram LM)")
+    ap.add_argument("--context", type=int, default=2, help="tokens of context (default 2 = trigram LM)")
     ap.add_argument("--start", choices=["boundary", "uniform", "frequent"], default="boundary")
     ap.add_argument("--punct", choices=["keep", "strip"], default="keep")
-    ap.add_argument("--min-len", type=int, default=1)
-    ap.add_argument("--max-len", type=int, default=0, help="0 = unlimited")
-    ap.add_argument("--novel", action="store_true", help="reject verbatim corpus sentences")
+    ap.add_argument("--min-len", type=int, default=1, help="minimum tokens, including punctuation")
+    ap.add_argument("--max-len", type=int, default=0, help="maximum tokens, including punctuation; 0 = no upper-length filter")
+    ap.add_argument("--novel", action="store_true", help="reject exact matches to cleaned corpus sentences")
     ap.add_argument("-n", type=int, default=20, help="sentences to generate")
     ap.add_argument("--seed", type=int, default=None)
     ap.add_argument("--quiet", action="store_true")
@@ -140,10 +142,10 @@ def main():
     capitalized = sum(w[0][:1].isupper() for w in outputs)
     terminal = sum(w[-1] in TERMINAL for w in outputs)
     mean_len = sum(len(w) for w in outputs) / n
-    print(f"--- {len(outputs)} sentences, mean length {mean_len:.1f} words, "
-          f"verbatim copies of corpus sentences {verbatim}/{n} ({100*verbatim/n:.0f}%), "
-          f"start with a capital {capitalized}/{n} ({100*capitalized/n:.0f}%), "
-          f"end with terminal punctuation {terminal}/{n} ({100*terminal/n:.0f}%), "
+    print(f"--- {len(outputs)} sentences, mean length {mean_len:.1f} tokens, "
+          f"verbatim copies of cleaned corpus sentences {verbatim}/{n} ({100*verbatim/n:.1f}%), "
+          f"start with a capital {capitalized}/{n} ({100*capitalized/n:.1f}%), "
+          f"end with terminal punctuation {terminal}/{n} ({100*terminal/n:.1f}%), "
           f"rejected {dict(rejected) or 0}")
 
 
